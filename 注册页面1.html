@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ch">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>徐海聪首秀网页</title>
+    <link rel="stylesheet" type="text/css" href="zhuce.css">
+    <link rel="stylesheet" type="text/css" href="yincang1.css">
+    <link rel="stylesheet" type="text/css" href="yincang2.css">
+    <link rel="stylesheet" type="text/css" href="yincang3.css">
+    <link rel="stylesheet" type="text/css" href="VIDEO.css">
+
+
+
+</head>
+
+<body>
+    <!-- 隐藏1 -->
+    <div class="box" id="box">
+        <span class="close" id="close">关闭</span>
+        <img class="myImg" id="myImg" src="box1.jpg">
+        <div class="text" id="text">哈哈哈，点关闭吧</div>
+    </div>
+    <!-- 隐藏2 -->
+    <div class="box2" id="box2">
+        <span class="close2" id="close2">继续</span>
+        <img class="myImg2" id="myImg2" src="box2.jpg">
+        <div class="text2" id="text2">再点有惊喜哦</div>
+    </div>
+    <!-- 隐藏3 -->
+    <div class="box3" id="box3">
+        <span class="close3" id="close3">别关啊</span>
+        <video class="myVideo" id="myVideo" autoplay="autoplay" controls="controls">
+            <source class="v1" src="1.mp4">
+            <div class="text3" id="text3">慎重关闭</div>
+    </div>
+    <!-- 坑 -->
+    <div class="top" id="top">
+        <h1><button class="aaa" id="aaa">点击关闭声音</button></h1>
+    </div>
+    <!-- 注册大盒 -->
+    <div class="zhuce">
+        <!-- 文字输入 -->
+        <div class="inputtext">
+            <h1 class="title">"沙雕"注册(可不填)</h1>
+            <p id="demo"></p>
+            <span class="text">用户名：<input class="shuru" type="text" required="required" placeholder="用户名"></span>
+            <span class="text">密码：<input class="shuru" type="password" required="required" placeholder="密码"></span>
+            <span class="text">确认密码：<input class="shuru" type="password" required="required"
+                    placeholder="再次输入密码"></span>
+        </div>
+        <!-- 选择 -->
+        <div class="chose">
+            <div class="oneChose">
+                <span class="danxuan">性别：</span>
+                <span class="danxuan">男<input type="radio" required="required" name="radio" value="男"></span>
+                <span class="danxuan">女<input type="radio" required="required" name="radio" value="女"></span>
+                <span class="danxuan">其他<input type="radio" required="required" name="radio" value="其他"></span>
+            </div>
+            <div class="doubleChose">
+                <span class="duoxuan">注册目的：</span>
+                <span class="duoxuan">游戏动态<input type="checkbox" required="required" checked="checked"></span>
+                <span class="duoxuan">关注学习<input type="checkbox" required="required"></span>
+                <span class="duoxuan">了解影视<input type="checkbox" required="required"></span>
+                <span class="duoxuan">搜索热歌<input type="checkbox" required="required"></span>
+                <span class="duoxuan">找音乐 <input type="checkbox" required="required"></span>
+                <span class="duoxuan">其他 <input type="checkbox" required="required"></span>
+            </div>
+        </div>
+        <!-- 提交按钮 -->
+        <img class="dianji" id="dianji" src="提交按钮.png">
+    </div>
+    <!-- 时间 -->
+    <script>
+        var myVar = setInterval(function () { myTimer() }, 500);
+        function myTimer() {
+            var d = new Date();
+            var t = d.toLocaleTimeString();
+            document.getElementById("demo").innerHTML = t;
+        }
+    </script>
+    <!-- js -->
+    <script src="1thbox.js"></script>
+    <script src="2ndbox.js"></script>
+    <script src="3box.js"></script>
+    <script src="4VIDEO.js"></script>
+
+
+</body>
+
+</html>

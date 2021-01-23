@@ -1,0 +1,87 @@
+/* 全局布置 */
+body {
+    margin: 0%;
+    background-image: url(box背景图.jpg);
+    background-repeat: no-repeat;
+}
+
+/* 注册盒子总体 */
+.zhuce {
+    border: solid;
+    border-color: dodgerblue;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin: -150px 0 0 -150px;
+    width: 300px;
+    height: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* 标题：XXX注册 */
+.title {
+    color: #fff;
+    text-shadow: 0 0 10px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/* 手动输入部分 */
+.text {
+    font-size: 10px;
+}
+
+input.shuru {
+    width: 278px;
+    height: 18px;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 1px 1px 1px;
+    border-top: 1px solid #312E3D;
+    border-left: 1px solid #312E3D;
+    border-right: 1px solid #312E3D;
+    border-bottom: 1px solid #56536A;
+    border-radius: 4px;
+    background-color: #2D2D3F;
+}
+
+/* 选择部分 */
+.oneChose {
+    padding-bottom: 10px;
+}
+
+.danxuan {
+    font-size: 10px;
+}
+
+.doubleChose {
+    padding-bottom: 5px;
+}
+
+.duoxuan {
+    font-size: 10px;
+    padding-right: 10px;
+}
+
+/* 上交按钮 */
+.dianji {
+    width: 278px;
+    height: 45px;
+    display: block;
+    border: 1px solid #3762bc;
+    line-height: normal;
+    border-radius: 5px;
+    margin: 0;
+}
+
